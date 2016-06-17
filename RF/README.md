@@ -1,6 +1,6 @@
 # The receiver
 
-![The voltage divider schematic](/bluetooth/divider.png)
+![The voltage divider schematic](/bluetooth/RF/divider.png)
 
 Connect the receiver’s VCC and GND pins to the Pi’s 5V and ground pins. If you’re having trouble with 5V, try the 3.3V pin, it worked better for me (less noise).
 Connect one end of the line-in cable (the ground, the long bit) to the ground pin of the RasPi.
