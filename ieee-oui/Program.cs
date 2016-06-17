@@ -27,8 +27,6 @@ namespace ieee_oui
 
             string s = string.Empty;
 
-            int lineNo = 0;
-
             // Send a request asynchronously continue when complete
             client.GetAsync(_address, HttpCompletionOption.ResponseHeadersRead).ContinueWith(
                 (requestTask) =>
