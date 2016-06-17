@@ -1,6 +1,6 @@
 # The receiver
 
-## The voltage divder
+## The voltage divider schematic
 ![The voltage divider schematic](divider.png)
 
 Connect the receiver’s VCC and GND pins to the Pi’s 5V and ground pins. If you’re having trouble with 5V, try the 3.3V pin, it worked better for me (less noise).
